@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PointCollector : MonoBehaviour
 {
     public int puntos = 0; // Contador de puntos
-    [SerializeField] private Text contadorDePuntos; // Referencia al objeto de texto
+    [SerializeField] private TextMeshProUGUI contadorDePuntos; // Referencia al objeto de texto
 
     void Start()
     {
